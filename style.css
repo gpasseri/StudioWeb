@@ -1,0 +1,99 @@
+/* style CSS */
+
+/* general */
+
+body{
+	margin: 0px;
+	color: rgb(20,20,20);
+	background: rgb(245,245,245);
+	font-family: 'Open Sans', sans-serif;
+}
+h1{
+	font-family: 'Lobster Two', cursive;
+}
+h2{
+	font-family: courier;
+	color: rgb(20,20,20);
+}
+p{
+	font-style: 16px;
+	line-height: 20px;
+}
+
+/* classes */
+
+.features{
+	text-align: center;
+	font-weight: 300;
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+.features img {
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+.features p{
+	padding-top: 20px;
+}
+.avantages{
+	align-content: center;
+}
+.menu{
+	padding-top: 30px;
+}
+.menu a{
+	color: rgb(30, 30, 30);
+}
+.menu a:hover{
+	text-decoration: none;
+	color: grey;
+}
+.container{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+.row{
+
+}
+
+
+/* id(s) */
+
+#my-header{
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+/*	background: url("http://lorempixel.com/1300/600/technics");*/
+	background: url("pictures/studioB.jpg");
+	color: white;
+}
+#my-list{
+
+}
+#feature-recording{
+
+}
+#feature-mixing{
+
+}
+#feature-mastering{
+
+}
+#my-footer{
+	padding: 30px;
+	background: rgb(30, 30, 30);
+	color: lightgrey;
+}
+#my-footer a {
+	letter-spacing: 20px;
+	color: lightgrey;
+	font-size: 25px;
+}
+#my-footer a:hover {
+	color: white;
+}
